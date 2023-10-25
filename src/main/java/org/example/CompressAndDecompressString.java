@@ -13,11 +13,11 @@ public class CompressAndDecompressString
         StringBuilder result = new StringBuilder();
         int count=1;
         for(int i=0;i<ch.length-1;i++) {
-            if(ch[i]==ch[i+1]){
+            if(ch[i]==ch[i+1]){  //Checking whether current and next index elements are same
                 count++;
-            } else{
-                result.append(str.charAt(i)).append(count);
-                count = 1;
+            } else{  //if current and next elements are not same append the string
+                result.append(str.charAt(i)).append(count);  //neec to do .append twice
+                count = 1;//reset the count
             }
         }
         result.append(str.charAt(ch.length-1)).append(count);//This is to append last char, because we did ch.length-1
