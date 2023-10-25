@@ -23,5 +23,6 @@ public class MoveKElementsToEnd
         for(Integer q: arr)
             System.out.print(q+",");
     }
+    //Input : { 1, 1, 3, 5, 6,1 }
     //Output : 6,5,3,1,1,1,
 }

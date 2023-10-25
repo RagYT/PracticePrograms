@@ -24,4 +24,5 @@ public class ReverseAStringWoAffectingSpecialChars {
         }
         for (char c : ch) System.out.print(c);
     }
+    //Output : d$r@W o(l#H   v&hg@R*!i  m@N @M(
 }
